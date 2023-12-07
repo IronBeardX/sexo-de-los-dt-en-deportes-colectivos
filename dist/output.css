@@ -2427,6 +2427,11 @@ input[type="range"]:active::-webkit-slider-thumb {
   padding-right: 1.4rem;
 }
 
+.px-\[10\%\] {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .px-\[10px\] {
   padding-left: 10px;
   padding-right: 10px;
@@ -2435,11 +2440,6 @@ input[type="range"]:active::-webkit-slider-thumb {
 .px-\[12px\] {
   padding-left: 12px;
   padding-right: 12px;
-}
-
-.px-\[20\%\] {
-  padding-left: 20%;
-  padding-right: 20%;
 }
 
 .px-\[7\%\] {
@@ -2510,11 +2510,6 @@ input[type="range"]:active::-webkit-slider-thumb {
 .py-\[5px\] {
   padding-top: 5px;
   padding-bottom: 5px;
-}
-
-.px-\[10\%\] {
-  padding-left: 10%;
-  padding-right: 10%;
 }
 
 .pb-0 {
@@ -3218,6 +3213,43 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 .\[transition\:background-color_250ms_cubic-bezier\(0\.4\2c 0\2c 0\.2\2c 1\)_0ms\2c box-shadow_250ms_cubic-bezier\(0\.4\2c 0\2c 0\.2\2c 1\)_0ms\2c border_250ms_cubic-bezier\(0\.4\2c 0\2c 0\.2\2c 1\)_0ms\] {
   transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
+}
+
+#basketball {
+  transition: all 0.5s ease-in-out;
+}
+
+#soccerball {
+  transition: all 0.5s ease-in-out;
+}
+
+#rugbyball {
+  transition: all 0.5s ease-in-out;
+}
+
+#handballball {
+  transition: all 0.5s ease-in-out;
+}
+
+#hockeyball {
+  transition: all 0.5s ease-in-out;
+}
+
+#softballball {
+  rotate: 45deg;
+  transition: all 0.5s ease-in-out;
+}
+
+#voleyball {
+  transition: all 0.5s ease-in-out;
+}
+
+#poloball {
+  transition: all 0.5s ease-in-out;
+}
+
+#baseballball {
+  transition: all 0.5s ease-in-out;
 }
 
 .selection\:bg-transparent *::-moz-selection {
@@ -4618,11 +4650,6 @@ input[type="range"]:active::-webkit-slider-thumb {
 }
 
 @media (min-width: 640px) {
-  .sm\:px-\[10\%\] {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-
   .sm\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -4659,11 +4686,6 @@ input[type="range"]:active::-webkit-slider-thumb {
 
   .md\:flex-row {
     flex-direction: row;
-  }
-
-  .md\:px-\[20\%\] {
-    padding-left: 20%;
-    padding-right: 20%;
   }
 
   .md\:px-\[15\%\] {
