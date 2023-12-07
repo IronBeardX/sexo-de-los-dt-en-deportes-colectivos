@@ -403,7 +403,7 @@ window.onload = function () {
   svg5.addEventListener("click", function () {
     svg5b.style.top = "0px";
     setTimeout(function () {
-      svg5b.style.top = Math.floor(Math.random() * 41) + 40 + "px";
+      svg5b.style.removeProperty("top");
     }, 500);
   });
   svg5.addEventListener("mouseover", (event) => {
